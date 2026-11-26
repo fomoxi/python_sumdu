@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog shop="TechStore" updated="2026-11-20">
+    <product id="P001" available="true">
+        <name>ThinkPad E14 Gen 5</name>
+        <brand>Lenovo</brand>
+        <category>Laptops</category>
+        <price currency="USD">890.00</price>
+        <stock>12</stock>
+        <rating>4.7</rating>
+        <year>2024</year>
+    </product>
+    <product id="P002" available="true">
+        <name>MacBook Air 13 M3</name>
+        <brand>Apple</brand>
+        <category>Laptops</category>
+        <price currency="USD">1199.00</price>
+        <stock>8</stock>
+        <rating>4.9</rating>
+        <year>2024</year>
+    </product>
+    <product id="P003" available="true">
+        <name>Zenbook 14 OLED</name>
+        <brand>ASUS</brand>
+        <category>Laptops</category>
+        <price currency="USD">1049.50</price>
+        <stock>6</stock>
+        <rating>4.6</rating>
+        <year>2024</year>
+    </product>
+    <product id="P004" available="false">
+        <name>Aspire 5 15</name>
+        <brand>Acer</brand>
+        <category>Laptops</category>
+        <price currency="USD">620.00</price>
+        <stock>0</stock>
+        <rating>4.2</rating>
+        <year>2023</year>
+    </product>
+    <product id="P005" available="true">
+        <name>Galaxy S24</name>
+        <brand>Samsung</brand>
+        <category>Smartphones</category>
+        <price currency="USD">799.00</price>
+        <stock>18</stock>
+        <rating>4.8</rating>
+        <year>2024</year>
+    </product>
+    <product id="P006" available="true">
+        <name>Pixel 8a</name>
+        <brand>Google</brand>
+        <category>Smartphones</category>
+        <price currency="USD">499.00</price>
+        <stock>22</stock>
+        <rating>4.6</rating>
+        <year>2024</year>
+    </product>
+    <product id="P007" available="true">
+        <name>iPhone 15</name>
+        <brand>Apple</brand>
+        <category>Smartphones</category>
+        <price currency="USD">849.00</price>
+        <stock>15</stock>
+        <rating>4.8</rating>
+        <year>2023</year>
+    </product>
+    <product id="P008" available="true">
+        <name>Redmi Note 13 Pro</name>
+        <brand>Xiaomi</brand>
+        <category>Smartphones</category>
+        <price currency="USD">329.00</price>
+        <stock>30</stock>
+        <rating>4.4</rating>
+        <year>2024</year>
+    </product>
+    <product id="P009" available="true">
+        <name>WH-1000XM5</name>
+        <brand>Sony</brand>
+        <category>Audio</category>
+        <price currency="USD">348.00</price>
+        <stock>14</stock>
+        <rating>4.8</rating>
+        <year>2023</year>
+    </product>
+    <product id="P010" available="true">
+        <name>AirPods Pro 2</name>
+        <brand>Apple</brand>
+        <category>Audio</category>
+        <price currency="USD">249.00</price>
+        <stock>25</stock>
+        <rating>4.7</rating>
+        <year>2023</year>
+    </product>
+    <product id="P011" available="true">
+        <name>Tune 720BT</name>
+        <brand>JBL</brand>
+        <category>Audio</category>
+        <price currency="USD">79.90</price>
+        <stock>40</stock>
+        <rating>4.4</rating>
+        <year>2023</year>
+    </product>
+    <product id="P012" available="true">
+        <name>UltraSharp U2724D</name>
+        <brand>Dell</brand>
+        <category>Monitors</category>
+        <price currency="USD">429.00</price>
+        <stock>10</stock>
+        <rating>4.7</rating>
+        <year>2024</year>
+    </product>
+    <product id="P013" available="true">
+        <name>UltraGear 27GP850</name>
+        <brand>LG</brand>
+        <category>Monitors</category>
+        <price currency="USD">349.00</price>
+        <stock>9</stock>
+        <rating>4.6</rating>
+        <year>2023</year>
+    </product>
+    <product id="P014" available="false">
+        <name>Odyssey G5 27</name>
+        <brand>Samsung</brand>
+        <category>Monitors</category>
+        <price currency="USD">269.00</price>
+        <stock>0</stock>
+        <rating>4.3</rating>
+        <year>2023</year>
+    </product>
+    <product id="P015" available="true">
+        <name>MX Master 3S</name>
+        <brand>Logitech</brand>
+        <category>Accessories</category>
+        <price currency="USD">99.00</price>
+        <stock>35</stock>
+        <rating>4.9</rating>
+        <year>2023</year>
+    </product>
+    <product id="P016" available="true">
+        <name>Keychron K2 Pro</name>
+        <brand>Keychron</brand>
+        <category>Accessories</category>
+        <price currency="USD">119.00</price>
+        <stock>20</stock>
+        <rating>4.7</rating>
+        <year>2024</year>
+    </product>
+    <product id="P017" available="true">
+        <name>T7 Shield 1TB SSD</name>
+        <brand>Samsung</brand>
+        <category>Accessories</category>
+        <price currency="USD">109.50</price>
+        <stock>28</stock>
+        <rating>4.8</rating>
+        <year>2023</year>
+    </product>
+    <product id="P018" available="true">
+        <name>GaN Charger 65W</name>
+        <brand>Anker</brand>
+        <category>Accessories</category>
+        <price currency="USD">45.00</price>
+        <stock>50</stock>
+        <rating>4.6</rating>
+        <year>2024</year>
+    </product>
+</catalog>

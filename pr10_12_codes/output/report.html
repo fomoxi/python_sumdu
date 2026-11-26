@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<title>Звіт аналізу XML-каталогу TechStore</title>
+<style>
+body { font-family: Arial, sans-serif; margin: 28px; color: #222; }
+h1, h2 { color: #1f4e79; }
+table { border-collapse: collapse; margin: 12px 0 22px; width: 100%; }
+th, td { border: 1px solid #ccc; padding: 6px 10px; text-align: left; }
+th { background: #eef3f8; }
+</style>
+</head>
+<body>
+<h1>Звіт аналізу XML-каталогу (TechStore)</h1>
+<p>Кількість товарів: <b>12</b> | Залишок на складі: <b>258</b> |
+Загальна вартість: <b>78464.0 USD</b> | Середня ціна: <b>398.71 USD</b> |
+Середній рейтинг: <b>4.73</b></p>
+<h2>Статистика за категоріями</h2>
+<table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Count</th>
+      <th>Avg_Price</th>
+      <th>Min_Price</th>
+      <th>Max_Price</th>
+      <th>Total_Stock</th>
+      <th>Total_Value</th>
+    </tr>
+    <tr>
+      <th>Category</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Laptops</th>
+      <td>1</td>
+      <td>890.00</td>
+      <td>890.0</td>
+      <td>890.0</td>
+      <td>12</td>
+      <td>10680.0</td>
+    </tr>
+    <tr>
+      <th>Smartphones</th>
+      <td>3</td>
+      <td>715.67</td>
+      <td>499.0</td>
+      <td>849.0</td>
+      <td>55</td>
+      <td>38095.0</td>
+    </tr>
+    <tr>
+      <th>Monitors</th>
+      <td>2</td>
+      <td>389.00</td>
+      <td>349.0</td>
+      <td>429.0</td>
+      <td>19</td>
+      <td>7431.0</td>
+    </tr>
+    <tr>
+      <th>Audio</th>
+      <td>2</td>
+      <td>298.50</td>
+      <td>249.0</td>
+      <td>348.0</td>
+      <td>39</td>
+      <td>11097.0</td>
+    </tr>
+    <tr>
+      <th>Accessories</th>
+      <td>4</td>
+      <td>93.12</td>
+      <td>45.0</td>
+      <td>119.0</td>
+      <td>133</td>
+      <td>11161.0</td>
+    </tr>
+  </tbody>
+</table>
+<h2>Візуалізація результатів</h2>
+<img src="category_prices.png" style="max-width:520px;margin:10px 0;"><br>
+<img src="category_share.png" style="max-width:520px;margin:10px 0;"><br>
+
+<h2>Список відфільтрованих товарів</h2>
+<table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ID</th>
+      <th>Name</th>
+      <th>Brand</th>
+      <th>Category</th>
+      <th>Price</th>
+      <th>Stock</th>
+      <th>Rating</th>
+      <th>Total_Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>P001</td>
+      <td>ThinkPad E14 Gen 5</td>
+      <td>Lenovo</td>
+      <td>Laptops</td>
+      <td>890.0</td>
+      <td>12</td>
+      <td>4.7</td>
+      <td>10680.0</td>
+    </tr>
+    <tr>
+      <td>P007</td>
+      <td>iPhone 15</td>
+      <td>Apple</td>
+      <td>Smartphones</td>
+      <td>849.0</td>
+      <td>15</td>
+      <td>4.8</td>
+      <td>12735.0</td>
+    </tr>
+    <tr>
+      <td>P005</td>
+      <td>Galaxy S24</td>
+      <td>Samsung</td>
+      <td>Smartphones</td>
+      <td>799.0</td>
+      <td>18</td>
+      <td>4.8</td>
+      <td>14382.0</td>
+    </tr>
+    <tr>
+      <td>P006</td>
+      <td>Pixel 8a</td>
+      <td>Google</td>
+      <td>Smartphones</td>
+      <td>499.0</td>
+      <td>22</td>
+      <td>4.6</td>
+      <td>10978.0</td>
+    </tr>
+    <tr>
+      <td>P012</td>
+      <td>UltraSharp U2724D</td>
+      <td>Dell</td>
+      <td>Monitors</td>
+      <td>429.0</td>
+      <td>10</td>
+      <td>4.7</td>
+      <td>4290.0</td>
+    </tr>
+    <tr>
+      <td>P013</td>
+      <td>UltraGear 27GP850</td>
+      <td>LG</td>
+      <td>Monitors</td>
+      <td>349.0</td>
+      <td>9</td>
+      <td>4.6</td>
+      <td>3141.0</td>
+    </tr>
+    <tr>
+      <td>P009</td>
+      <td>WH-1000XM5</td>
+      <td>Sony</td>
+      <td>Audio</td>
+      <td>348.0</td>
+      <td>14</td>
+      <td>4.8</td>
+      <td>4872.0</td>
+    </tr>
+    <tr>
+      <td>P010</td>
+      <td>AirPods Pro 2</td>
+      <td>Apple</td>
+      <td>Audio</td>
+      <td>249.0</td>
+      <td>25</td>
+      <td>4.7</td>
+      <td>6225.0</td>
+    </tr>
+    <tr>
+      <td>P016</td>
+      <td>Keychron K2 Pro</td>
+      <td>Keychron</td>
+      <td>Accessories</td>
+      <td>119.0</td>
+      <td>20</td>
+      <td>4.7</td>
+      <td>2380.0</td>
+    </tr>
+    <tr>
+      <td>P017</td>
+      <td>T7 Shield 1TB SSD</td>
+      <td>Samsung</td>
+      <td>Accessories</td>
+      <td>109.5</td>
+      <td>28</td>
+      <td>4.8</td>
+      <td>3066.0</td>
+    </tr>
+    <tr>
+      <td>P015</td>
+      <td>MX Master 3S</td>
+      <td>Logitech</td>
+      <td>Accessories</td>
+      <td>99.0</td>
+      <td>35</td>
+      <td>4.9</td>
+      <td>3465.0</td>
+    </tr>
+    <tr>
+      <td>P018</td>
+      <td>GaN Charger 65W</td>
+      <td>Anker</td>
+      <td>Accessories</td>
+      <td>45.0</td>
+      <td>50</td>
+      <td>4.6</td>
+      <td>2250.0</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

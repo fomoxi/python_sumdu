@@ -1,0 +1,13 @@
+ID,Available,Name,Brand,Category,Price,Currency,Stock,Rating,Year,Total_Value
+P001,True,ThinkPad E14 Gen 5,Lenovo,Laptops,890.0,USD,12,4.7,2024,10680.0
+P007,True,iPhone 15,Apple,Smartphones,849.0,USD,15,4.8,2023,12735.0
+P005,True,Galaxy S24,Samsung,Smartphones,799.0,USD,18,4.8,2024,14382.0
+P006,True,Pixel 8a,Google,Smartphones,499.0,USD,22,4.6,2024,10978.0
+P012,True,UltraSharp U2724D,Dell,Monitors,429.0,USD,10,4.7,2024,4290.0
+P013,True,UltraGear 27GP850,LG,Monitors,349.0,USD,9,4.6,2023,3141.0
+P009,True,WH-1000XM5,Sony,Audio,348.0,USD,14,4.8,2023,4872.0
+P010,True,AirPods Pro 2,Apple,Audio,249.0,USD,25,4.7,2023,6225.0
+P016,True,Keychron K2 Pro,Keychron,Accessories,119.0,USD,20,4.7,2024,2380.0
+P017,True,T7 Shield 1TB SSD,Samsung,Accessories,109.5,USD,28,4.8,2023,3066.0
+P015,True,MX Master 3S,Logitech,Accessories,99.0,USD,35,4.9,2023,3465.0
+P018,True,GaN Charger 65W,Anker,Accessories,45.0,USD,50,4.6,2024,2250.0
